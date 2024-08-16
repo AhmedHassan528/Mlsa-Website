@@ -1,0 +1,30 @@
+/* Start filter*/
+.com_filter {
+    margin-top: 48px;
+}
+
+.com_filter h1 {
+    color: var(--MLSA-Light-color, #4FE4FD);
+    font-family: Kulim Park;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* End filter*/
+#filterList {
+    margin-top: 24px;
+}
+
+.com_filter li {
+    color: #FFF;
+    font-family: Kulim Park;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+    list-style-type: none;
+
+}

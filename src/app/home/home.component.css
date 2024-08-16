@@ -1,0 +1,136 @@
+
+/* Start Header */
+
+
+.Header.container {
+    display: grid;
+    grid-template-columns: 1fr 402px;
+    gap: 20px;
+    /* Adjust the gap as needed */
+    align-items: center;
+}
+
+
+.Header img {
+    flex-shrink: 0;
+    /* Prevents the image from shrinking */
+    width: 402px;
+    height: 368px;
+    display: inline;
+}
+
+.call-to-action {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-size: 16px;
+    background-color: #0078D4;
+    padding: 8px 8px 8px 16px;
+    border-radius: 8px;
+    transition: all ease-in-out 130ms;
+}
+
+.call-to-action .cta-icon {
+    opacity: 0;
+    transition: all ease-in-out 180ms;
+}
+
+a.call-to-action:link,
+a.call-to-action:visited,
+a.call-to-action:hover,
+a.call-to-action:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.call-to-action:hover {
+    background: linear-gradient(275deg, #9B68CA 0%, rgba(0, 120, 212, 0.33) 99.54%);
+}
+
+.call-to-action:hover .cta-icon {
+    opacity: 1;
+}
+
+.power {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #50E6FF 0%, rgba(80, 230, 255, 0.58) 54.69%, rgba(80, 230, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 100px 0;
+}
+
+
+
+
+
+
+/* Start Numbers */
+
+
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.number-head {
+    font-family: 'Krona One', sans-serif;
+    line-height: normal;
+}
+
+.number-subhead {
+    color: #A5D8FF;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+/* start Coming */
+
+
+
+
+.Coming {
+    position: relative;
+}
+
+.Coming .Coming_title {
+    color: #FFF;
+    font-family: Kulim Park;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Coming .container {
+    padding: 120px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 402px;
+    gap: 20px;
+    /* Adjust the gap as needed */
+    align-items: center;
+}
+
+
+.bottom-cta-image {
+    border: 2.5px solid var(--MLSA-Light-color);
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .bottom-cta-image {
+        border-width: 4px;
+    }
+}

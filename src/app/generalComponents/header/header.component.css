@@ -1,0 +1,41 @@
+.com_Header {
+    position: relative;
+    border-radius: 16px;
+    background: var(--MLSA-Blue-Light, rgba(0, 120, 212, 0.30));
+    height: 314px;
+    margin-top: 84px;
+}
+
+.com_Header_contant {
+    padding: 70px 251px 0 24px;
+    width: 1092px;
+    align-items: center;
+}
+
+.com_Header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 314px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+
+}
+
+.com_Header_contant h1 {
+    font-family: Kulim Park;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.com_Header_contant h6 {
+    font-family: Kulim Park;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

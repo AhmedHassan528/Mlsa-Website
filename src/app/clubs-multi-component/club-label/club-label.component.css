@@ -1,0 +1,58 @@
+.Clubs_card-body {
+    width: 400px;
+    height: 260px;
+    background-color: #0078D44D;
+    margin-bottom: 32px;
+    border-radius: 16px;
+
+}
+
+.Clubs_card {
+    position: relative;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.Clubs_card_img img {
+    background-color: #fff;
+    position: absolute;
+    left: 133px;
+    width: 130px;
+    bottom: 200px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 130px;
+}
+
+.Clubs_card .Clubs_card_contant {
+    padding: 93px 16px 16px 16px;
+}
+
+.Clubs_card .Clubs_card_contant h1 {
+    color: var(--MLSA-Light-color, #4FE4FD);
+    text-align: center;
+    font-family: Kulim Park;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Clubs_card .Clubs_card_contant h5 {
+    color: #FFF;
+    text-align: center;
+    /* Body Small 16px */
+    font-family: Kulim Park;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Clubs_card_icons {
+    text-align: center;
+}
+
+.Clubs_card .Clubs_card_contant .Clubs_card_icons svg {
+    margin: 0 8px;
+}

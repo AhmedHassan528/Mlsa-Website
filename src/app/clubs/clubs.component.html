@@ -1,0 +1,41 @@
+<!-- Start Header -->
+<app-header>
+
+</app-header>
+<!-- End Header -->
+
+<!-- Start Search -->
+
+<br>
+
+<section class="com_Search">
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="col-2 ">
+                <app-club-filter/>
+            </div>
+
+
+            <div class="col-1"></div>
+
+            <div class="col-9 row ">
+                <h1>Search for MLSAs Clubs</h1>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for MS student clubs events"
+                        aria-label="Search"
+                        style="width: 642px; display: inline; background-color: transparent; border-color: #4FE4FD; padding: 16px; color: white; border-radius: 16px;">
+                    <button style="width: 150px; padding: 16px; border-radius: 16px;"
+                        class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+
+                <app-club-label [Clubs]="ClubsData" ></app-club-label>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+

@@ -1,0 +1,12 @@
+
+
+@for (item of Leaders; track $index) 
+{
+    <a href="#" class="Ambassador_search">
+        <img src="{{item.LeaderImg}}" alt="">
+        <h1>{{item.LeaderName}}</h1>
+        <h2>{{item.Role}}</h2>
+        <h2>{{item.LeaderAbout.slice(0,80)}}....
+        </h2>
+    </a>
+}

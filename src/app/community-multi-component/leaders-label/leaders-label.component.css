@@ -1,0 +1,36 @@
+.Ambassador_search {
+    position: relative;
+
+    display: flex;
+    width: 808px;
+    padding-right: 0px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px 16px 16px 100px;
+    background: var(--MLSA-Blue-Light, rgba(0, 120, 212, 0.30));
+    margin: 24px 0;
+}
+
+.Ambassador_search h1 {
+    color: var(--MLSA-Light-color, #4FE4FD);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 25%;
+    text-align: center;
+}
+
+.Ambassador_search h2 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Ambassador_search img {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+}

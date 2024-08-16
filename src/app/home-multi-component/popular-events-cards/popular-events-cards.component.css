@@ -1,0 +1,47 @@
+
+.popular-event-card {
+    background-color: rgba(0, 120, 212, 0.30);
+    max-width: 270px;
+    border-radius: 16px;
+    transition: background-color linear 100ms;
+}
+
+.popular-event-card .card-img-top {
+    border-radius: 16px 16px 0 0;
+    height: 164px;
+    object-fit: cover;
+}
+
+.popular-event-card .card-body {
+    padding: 0 16px 8px;
+}
+
+.popular-event-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4FE4FD;
+}
+
+.popular-event-card .card-text {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.popular-event-card .cta {
+    color: var(--MLSA-Light-color);
+    font-size: 16px;
+    transition: all ease-out 100ms;
+}
+
+.popular-event-card .cta:link {
+    text-decoration: none;
+}
+
+.popular-event-card .cta:hover {
+    opacity: 0.8;
+}
+
+.popular-event-card:hover {
+    background-color: rgba(0, 120, 212, 0.65);
+}
+

@@ -1,0 +1,13 @@
+footer {
+    background: linear-gradient(95deg, #0078D4 1.05%, #000 98.95%);
+}
+
+.msla-brand img {
+    width: 71px;
+    height: 62px;
+}
+
+.msla-brand {
+    font-size: 16px;
+    line-height: normal;
+}

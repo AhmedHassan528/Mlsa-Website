@@ -1,0 +1,35 @@
+
+
+.msla-brand img {
+    width: 71px;
+    height: 62px;
+}
+
+.msla-brand {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.msla-navbar .nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    padding: 16px !important;
+}
+
+.msla-navbar .nav-link:hover {
+    background-color: color-mix(in srgb, var(--accent-color) 50%, transparent);
+}
+
+.msla-navbar .nav-link.active,
+.msla-navbar .nav-link.active:hover {
+    background-color: var(--accent-color);
+}
+
+.msla-navbar .navbar-collapse {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
